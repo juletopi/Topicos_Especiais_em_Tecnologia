@@ -126,6 +126,35 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
 - Entender a organização e como se interligam elementos que compõem uma página da Web.
 - Faça todas as leituras indicadas.
 
+<div align="left">
+  <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
+</div>
+
+<!-- LEARNED CONCEPTS -->
+
+## 📚 Conceitos Aprendidos:
+
+### 1. VSCode, HTML e Web-páginas
+
+> [!NOTE]\
+> *Retirado da aula de "[Codigo_Simples_de_HTML](---)"*
+
+<div align="left">
+
+  Nesta aula foram aprendidos:
+  - Início do uso da IDE VSCode como ferramenta de aprendizado
+  - Conceitos básicos sobre HTML
+  - Criação do "esqueleto" de uma web-página
+ 
+</div>
+  
+```c#
+
+```
+<div align="left">
+  <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
+</div>
+
 <br>
 
 <!-- AUTHOR -->
@@ -163,6 +192,10 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
     </td>
   </tr>
 </table>
+
+<div align="left">
+  <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
+</div>
 
 <br>
 

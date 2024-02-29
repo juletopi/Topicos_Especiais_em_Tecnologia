@@ -47,7 +47,18 @@
     </a>
 </div>
 
-<br>
+<!-- SUMMARY -->
+
+<h2 align="center">Sumário 🧾</h2>
+
+<div align="center">
+  <p align="center">
+    <a href="#-professor">Professor</a> &#xa0; | &#xa0;
+    <a href="#tópicos-especiais-em-tecnologia"> Sobre o tópico</a> &#xa0; | &#xa0;
+    <a href="#1-vscode-html-e-web-páginas">Conceitos Aprendidos 1</a> &#xa0; | &#xa0;
+    <a href="#-autor">Autor</a>
+  </p>
+</div>
 
 <div align="center">
   <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=7fbfc9&height=4&section=header&%20render">

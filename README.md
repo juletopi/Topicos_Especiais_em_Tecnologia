@@ -141,6 +141,12 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
 </div>
 
+<br>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=7fbfc9&height=4&section=header&%20render">
+</div>
+
 <!-- LEARNED CONCEPTS -->
 
 ## 📚 Conceitos Aprendidos:

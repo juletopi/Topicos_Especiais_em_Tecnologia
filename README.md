@@ -70,7 +70,7 @@
 
 <div align="center">
 
-  [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=nord&quote=T.E.C%20s%C3%A3o%20como%20os%20blocos%20de%20constru%C3%A7%C3%A3ode%20um%20edif%C3%ADcio%20tecnol%C3%B3gico%2C%20onde%20cada%20elemento%20-%20desde%20os%20fundamentos%20de%20sistemas%20web%20at%C3%A9%20os%20princ%C3%ADpios%20de%20seguran%C3%A7a%20de%20sistemas%20web%20-%20%C3%A9%20essencial%20para%20construir%20uma%20base%20s%C3%B3lida.&author=Autor%20Desconhecido)](https://github.com/piyushsuthar/github-readme-quotes)
+  [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=nord&quote=T.E.T%20s%C3%A3o%20como%20os%20blocos%20de%20constru%C3%A7%C3%A3ode%20um%20edif%C3%ADcio%20tecnol%C3%B3gico%2C%20onde%20cada%20elemento%20-%20desde%20os%20fundamentos%20de%20sistemas%20web%20at%C3%A9%20os%20princ%C3%ADpios%20de%20seguran%C3%A7a%20de%20sistemas%20web%20-%20%C3%A9%20essencial%20para%20construir%20uma%20base%20s%C3%B3lida.&author=Autor%20Desconhecido)](https://github.com/piyushsuthar/github-readme-quotes)
 </div>
 
 <!-- ABOUT TEACHER -->
@@ -157,7 +157,7 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
 
 > [!NOTE]\
 > *Retirado da aula de "[CodigoAula01](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/CodigoAula01/CodigoHTMLAula01.html)"* \
-> *Link do Google Drive com todas as aulas em PDF: [Aulas de T.E.C em PDF](https://drive.google.com/drive/folders/1WZKBbU3s5VFLfBFfLC7zqFWzAqR1x9Dy?usp=drive_link)*
+> *Link de todas as aulas em PDF: [Aulas de T.E.T em PDF](https://drive.google.com/drive/folders/1WZKBbU3s5VFLfBFfLC7zqFWzAqR1x9Dy?usp=drive_link)*
 
 <div align="left">
 
@@ -291,7 +291,8 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
 
 > [!NOTE]\
 > *Retirado da aula de "[CodigoAula02](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/tree/main/CodigoAula02)"* \
-> *Link do Google Drive com todas as aulas em PDF: [Aulas de T.E.C em PDF](https://drive.google.com/drive/folders/1WZKBbU3s5VFLfBFfLC7zqFWzAqR1x9Dy?usp=drive_link)*
+> *Link de todas as aulas em PDF: [Aulas de T.E.T em PDF](https://drive.google.com/drive/folders/1WZKBbU3s5VFLfBFfLC7zqFWzAqR1x9Dy?usp=drive_link)* \
+> *Link do repositório da atividade do dia 26/02: [Pagina_de_Curriculo_Simples](https://github.com/juletopi/Pagina_de_Curriculo_Simples)*
 
 <div align="left">
 

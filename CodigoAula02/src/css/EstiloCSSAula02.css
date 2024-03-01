@@ -1,0 +1,96 @@
+/* Estilizando o corpo da página */
+body {
+    background-color: #ccf892; /* Cor de fundo */
+    font-family: "Helvetica Neue", sans-serif; /* Estilo de fonte da página */
+    padding: 50px; 
+}
+
+/* Estilizando os títulos */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center; /* Centraliza o texto */
+    color: #9acd32; /* Cor dos títulos */
+    background-color: #212B33; /* Cor de fundo */
+    border: 2px solid #9acd32; /* Borda verde lima */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 10px; /* Espaçamento interno */
+    margin: 5px auto; /* Centraliza o título horizontalmente */
+}
+
+/* Estilizando o "cointainer" */
+.container {
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    display: flex; /* Usa o modelo de layout flexível */
+    flex-wrap: wrap; /* Permite que os itens sejam embrulhados para uma nova linha */
+    flex-direction: row; /* Define a direção dos itens como linha */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #212B33; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: 2px solid #9acd32; /* Borda verde lima */
+    border-radius: 5px; /* Borda arredondada */
+    width: 90%; /* Largura do cointainer em relação à largura da tela */
+    max-width: 600px; /* Largura máxima do container */
+    height: auto; /* Altura do cointainer ajustada automaticamente */
+    margin: 40px auto; /* Centraliza o container horizontalmente e define o espaçamento superior e inferior */
+}
+
+/* Estilizando o parágrafo dentro do container */
+.container p {
+    flex: 1; /* Ocupa todo o espaço disponível */
+    margin-right: 10px; /* Espaçamento entre o texto e a imagem */
+}
+
+/* Estilizando a imagem dentro do container */
+.container img {
+    flex-shrink: 0; /* Não encolhe a imagem quando não há espaço suficiente */
+    max-width: 30%; /* Define a largura máxima da imagem */
+    margin-top: 10px; /* Espaçamento acima da imagem */
+}
+
+/* Estilizando o formulário */
+form {
+    background-color: #f8ffef; /* Cor de fundo */
+    border: 3px solid #9acd32; /* Borda verde lima */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    width: 250px; /* Largura do formulário */
+    height: 230px; /* Altura do formulário */
+    margin: 40px auto; /* Centraliza o formulário horizontalmente */
+}
+
+/* Estilizando o botão de envio do formulário */
+input[type="submit"] {
+    background-color: #9acd32; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+    padding: 15px 25px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 0px; /* Borda não arredondada */
+    cursor: pointer; /* Cursor de apontar */
+    display: block; /* Faz o botão ocupar toda a largura do container */
+    margin-left: auto; /* Alinha o botão à direita */
+    margin-right: auto; /* Alinha o botão à esquerda */
+    margin-top: 60px; /* Espaçamento superior */
+}
+
+/* Estilizando o rodapé */
+footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+    color: #212B33; /* Cor do texto branca */
+    width: 100%; /* Largura total */
+    bottom: 0; /* Alinha o footer à parte inferior da tela */
+}
+
+/* Estilizando a cor de fundo da barra de rolagem */
+::-webkit-scrollbar {
+    background-color: #ccf892; /* Cor de fundo */
+    width: 10px;
+	height: 8px;
+}
+
+/* Estilizando a cor da "thumb" (o indicador de posição) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #9acd32; /* Cor da thumb */
+    border-radius: 8px; /* Borda arredondada */
+}

@@ -154,7 +154,7 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
 ### 1. VSCode, HTML e Web-páginas
 
 > [!NOTE]\
-> *Retirado da aula de "[Codigo_Simples_de_HTML](---)"*
+> *Retirado da aula de "[CodigoHTMLAula01](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/CodigoHTMLAula01.html)"*
 
 <div align="left">
 
@@ -165,9 +165,117 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
  
 </div>
   
-```c#
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Este é um título da página web</title>
+</head>
+<body>
+    <!-- Títulos -->
+    <h1>Este é um título de nível 1</h1>
+    <h2>Este é um título de nível 2</h2>
+    <h3>Este é um título de nível 3</h3>
+    <h4>Este é um título de nível 4</h4>
+    <h5>Este é um título de nível 5</h5>
+    <h6>Este é um título de nível 6</h6>
 
+    <!-- Parágrafos -->
+    <p>Este é um parágrafo de texto simples.</p>
+
+    <!-- Listas -->
+    <h2>Listas</h2>
+    <h3>Listas não ordenadas</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h3>Listas ordenadas</h3>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- Links -->
+    <h2>Links</h2>
+    <p>Visite a <a href="https://www.exemplo.com">página inicial</a>.</p>
+
+    <!-- Imagens -->
+    <h2>Imagens</h2>
+    <img src="caminho/para/imagem.jpg" alt="Descrição da imagem" title="Mensagem que aparece ao manter o cursor do mouse emcima da imagem">
+
+    <!-- Formulários -->
+    <h2>Formulários</h2>
+    <form action="/submit" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Tabelas -->
+    <h2>Tabelas</h2>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+    <!-- Seções -->
+    <h2>Seções</h2>
+    <section>
+        <h3>Seção 1</h3>
+        <p>Conteúdo da seção 1...</p>
+    </section>
+    <section>
+        <h3>Seção 2</h3>
+        <p>Conteúdo da seção 2...</p>
+    </section>
+
+    <!-- Quebra de linha -->
+    <br>
+    
+    <!-- Linha horizontal -->
+    <hr>
+
+    <!-- Quebra de linha -->
+    <br>
+
+    <!-- Estilos de texto -->
+    <h2>Estilos de Texto</h2>
+    <p><i>Texto em itálico</i></p>
+    <p><b>Texto em negrito</b></p>
+    <p><u>Texto sublinhado</u></p>
+    <p><strong>Texto forte</strong></p>
+    <p><small>Texto pequeno</small></p>
+    <p><code>Código de programação</code></p>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Aula 01 de Tópicos Especiais em Tecnologia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
 ```
+### 🖼️ Imagem da página
+
+> <a href=""><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/6f5014d6-5e90-4972-a702-83449b7b6fdc" alt="WebPageView" title="Visualização da Página Inteira" style="width: 50%;"></a>
+
 <div align="left">
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
 </div>

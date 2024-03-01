@@ -154,7 +154,7 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
 ### 1. VSCode, HTML e Web-páginas
 
 > [!NOTE]\
-> *Retirado da aula de "[CodigoHTMLAula01](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/CodigoHTMLAula01.html)"*
+> *Retirado da aula de "[CodigoHTMLAula01](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/CodigoAula01/CodigoHTMLAula01.html)"*
 
 <div align="left">
 
@@ -275,6 +275,183 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
 ### 🖼️ Imagem da página
 
 > <a href=""><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/6f5014d6-5e90-4972-a702-83449b7b6fdc" alt="WebPageView" title="Visualização da Página Inteira" style="width: 50%;"></a>
+
+<div align="left">
+  <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
+</div>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=7fbfc9&height=4&section=header&%20render">
+</div>
+
+### 2. CSS e Estilização de Página
+
+> [!NOTE]\
+> *Retirado da aula de "[CodigoHTMLAula02](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/tree/main/CodigoAula02)"*
+
+<div align="left">
+
+  Nesta aula foram aprendidos:
+  - Conceitos de código em CSS
+  - Estilização da página com CSS
+ 
+</div>
+
+#### HTML:
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Este é um título da página web</title>
+    <!-- "Linkando" o CSS com HTML -->
+    <link rel="stylesheet" href="src/css/EstiloCSSAula02.css">
+</head>
+<body>
+    <!-- Títulos -->
+    <h1>Este é um título de nível 1</h1>
+    <h2>Este é um título de nível 2</h2>
+    <h3>Este é um título de nível 3</h3>
+    <h4>Este é um título de nível 4</h4>
+    <h5>Este é um título de nível 5</h5>
+    <h6>Este é um título de nível 6</h6>
+
+    <!-- "Container" com um parágrafo e uma imagem -->
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, felis at scelerisque tincidunt, nunc arcu volutpat augue, vitae tincidunt libero enim sit amet mi. Integer auctor ligula quis justo lacinia, a auctor elit vestibulum. Duis auctor auctor sapien, eu fermentum est pulvinar non. Vestibulum ut tortor id odio mollis cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <img src="src/images/textImage.png" width="120px" alt="Descrição da imagem" title="Mensagem que aparece ao manter o cursor do mouse encima da imagem">
+    </div>
+
+    <!-- Formulário -->
+    <form action="/submit" method="post">
+        <label for="nome"><br>Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Quebra de linha -->
+    <br>
+    
+    <!-- Linha horizontal -->
+    <hr>
+
+    <!-- Quebra de linha -->
+    <br>
+
+    <!-- Rodapé -->
+    <footer>
+        <em>&copy; 2024 Aula 02 de Tópicos Especiais em Tecnologia. Todos os direitos reservados.</em>
+    </footer>
+</body>
+</html>
+```
+
+#### CSS:
+```css
+/* Estilizando o corpo da página */
+body {
+    background-color: #ccf892; /* Cor de fundo */
+    font-family: "Helvetica Neue", sans-serif; /* Estilo de fonte da página */
+    padding: 50px; 
+}
+
+/* Estilizando os títulos */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center; /* Centraliza o texto */
+    color: #9acd32; /* Cor dos títulos */
+    background-color: #212B33; /* Cor de fundo */
+    border: 2px solid #9acd32; /* Borda verde lima */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 10px; /* Espaçamento interno */
+    margin: 5px auto; /* Centraliza o título horizontalmente e define o espaçamento superior e inferior */
+}
+
+/* Estilizando o "cointainer" */
+.container {
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    display: flex; /* Usa o modelo de layout flexível */
+    flex-wrap: wrap; /* Permite que os itens sejam embrulhados para uma nova linha */
+    flex-direction: row; /* Define a direção dos itens como linha */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #212B33; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: 2px solid #9acd32; /* Borda verde lima */
+    border-radius: 5px; /* Borda arredondada */
+    width: 90%; /* Largura do cointainer em relação à largura da tela */
+    max-width: 600px; /* Largura máxima do container */
+    height: auto; /* Altura do cointainer ajustada automaticamente */
+    margin: 40px auto; /* Centraliza o container horizontalmente e define o espaçamento superior e inferior */
+}
+
+/* Estilizando o parágrafo dentro do container */
+.container p {
+    flex: 1; /* Ocupa todo o espaço disponível */
+    margin-right: 10px; /* Espaçamento entre o texto e a imagem */
+}
+
+/* Estilizando a imagem dentro do container */
+.container img {
+    flex-shrink: 0; /* Não encolhe a imagem quando não há espaço suficiente */
+    max-width: 30%; /* Define a largura máxima da imagem */
+    margin-top: 10px; /* Espaçamento acima da imagem */
+}
+
+/* Estilizando o formulário */
+form {
+    background-color: #f8ffef; /* Cor de fundo */
+    border: 3px solid #9acd32; /* Borda verde lima */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    width: 250px; /* Largura do formulário */
+    height: 230px; /* Altura do formulário */
+    margin: 40px auto; /* Centraliza o formulário horizontalmente e define o espaçamento superior e inferior */
+}
+
+/* Estilizando o botão de envio do formulário */
+input[type="submit"] {
+    background-color: #9acd32; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+    padding: 15px 25px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 0px; /* Borda não arredondada */
+    cursor: pointer; /* Cursor de apontar */
+    display: block; /* Faz o botão ocupar toda a largura do container */
+    margin-left: auto; /* Alinha o botão à direita */
+    margin-right: auto; /* Alinha o botão à esquerda */
+    margin-top: 60px; /* Espaçamento superior */
+}
+
+/* Estilizando o rodapé */
+footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+    color: #212B33; /* Cor do texto branca */
+    width: 100%; /* Largura total */
+    bottom: 0; /* Alinha o footer à parte inferior da tela */
+}
+
+/* Estilizando a cor de fundo da barra de rolagem */
+::-webkit-scrollbar {
+    background-color: #ccf892; /* Cor de fundo */
+    width: 10px;
+	height: 8px;
+}
+
+/* Estilizando a cor da "thumb" (o indicador de posição) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #9acd32; /* Cor da thumb */
+    border-radius: 8px; /* Borda arredondada */
+}
+```
+
+### 🖼️ Imagem da página
+
+> <a href=""><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/9c767011-e8d4-4b53-849a-456fd982c2c4" alt="WebPageView" title="Visualização da Página Inteira" style="width: 50%;"></a>
 
 <div align="left">
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>

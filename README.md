@@ -156,7 +156,8 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
 ### 1. VSCode, HTML e Web-páginas
 
 > [!NOTE]\
-> *Retirado da aula de "[CodigoAula01](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/CodigoAula01/CodigoHTMLAula01.html)"*
+> *Retirado da aula de "[CodigoAula01](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/CodigoAula01/CodigoHTMLAula01.html)"* \
+> *Link do Google Drive com todas as aulas em PDF: [Aulas de T.E.C em PDF](https://drive.google.com/drive/folders/1WZKBbU3s5VFLfBFfLC7zqFWzAqR1x9Dy?usp=drive_link)*
 
 <div align="left">
 
@@ -289,7 +290,8 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
 ### 2. CSS e Estilização de Página
 
 > [!NOTE]\
-> *Retirado da aula de "[CodigoAula02](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/tree/main/CodigoAula02)"*
+> *Retirado da aula de "[CodigoAula02](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/tree/main/CodigoAula02)"* \
+> *Link do Google Drive com todas as aulas em PDF: [Aulas de T.E.C em PDF](https://drive.google.com/drive/folders/1WZKBbU3s5VFLfBFfLC7zqFWzAqR1x9Dy?usp=drive_link)*
 
 <div align="left">
 

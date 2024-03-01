@@ -16,7 +16,7 @@
 <!-- PRESENTATION -->
 
 <div align="center">
-    <a href="">
+    <a href="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/Assets/TopicosEspeciaisEmTecnologia-pic.png">
         <img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/6168acda-bc95-40fb-bede-ddb246a06fd2" alt="TopicosEspeciaisEmTecnologia-pic" width="130px" title="Repositório de Tópicos Especiais em Tecnologia">
     </a>
     <h2 align="center">Tópicos Especiais em Tecnologia 🌐</h2>
@@ -75,7 +75,7 @@
 
 ## 👨‍🏫 Professor:
 
-<a href="">
+<a href="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/Assets/HailtonCesar-pic.png">
   <img align="left" height="135px" width="135px" alt="HailtonCesar-pic" title="Professor Hailton César" src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/26c8369f-0dc1-4b15-aa6a-5fa529d6700e">
 </a>
 
@@ -274,7 +274,7 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
 ```
 ### 🖼️ Imagem da página
 
-> <a href=""><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/6f5014d6-5e90-4972-a702-83449b7b6fdc" alt="WebPageView" title="Visualização da Página Inteira" style="width: 50%;"></a>
+> <a href="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/Assets/Pagina_HTML_Aula01-pic.png"><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/6f5014d6-5e90-4972-a702-83449b7b6fdc" alt="WebPageView" title="Visualização da Página Inteira" style="width: 50%;"></a>
 
 <div align="left">
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
@@ -451,7 +451,7 @@ footer {
 
 ### 🖼️ Imagem da página
 
-> <a href=""><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/9c767011-e8d4-4b53-849a-456fd982c2c4" alt="WebPageView" title="Visualização da Página Inteira" style="width: 50%;"></a>
+> <a href="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/Assets/Pagina_HTMLeCSS_Aula02-pic.png"><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/9c767011-e8d4-4b53-849a-456fd982c2c4" alt="WebPageView" title="Visualização da Página Inteira" style="width: 50%;"></a>
 
 <div align="left">
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>

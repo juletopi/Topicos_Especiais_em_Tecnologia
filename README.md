@@ -55,7 +55,9 @@
   <p align="center">
     <a href="#-professor">Professor</a> &#xa0; | &#xa0;
     <a href="#tópicos-especiais-em-tecnologia"> Sobre o tópico</a> &#xa0; | &#xa0;
-    <a href="#1-vscode-html-e-web-páginas">Conceitos Aprendidos 1</a> &#xa0; | &#xa0;
+    <a href="#1-vscode-html-e-web-páginas">Conceitos Aprendidos 1</a>
+   </p>
+    <a href="#2-css-e-estilização-de-página">Conceitos Aprendidos 2</a> &#xa0; | &#xa0;
     <a href="#-autor">Autor</a>
   </p>
 </div>

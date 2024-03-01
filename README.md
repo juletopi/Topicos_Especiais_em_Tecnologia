@@ -517,5 +517,5 @@ footer {
 </div>
 
 <div align="center">
-  Feito com 🤍 por <a href="https://github.com/juletopi"> Juletopi</a>.
+  Feito com ❤️ por <a href="https://github.com/juletopi"> Juletopi</a>.
 </div>

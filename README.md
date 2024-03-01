@@ -137,7 +137,6 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
 - Desenvolver a capacidade de localizar e avaliar tecnologias atuais e emergentes para o desenvolvimento de aplicações para a Web.
 - Entender o funcionamento de servidores Web e como páginas e aplicações para a Web são servidas.
 - Entender a organização e como se interligam elementos que compõem uma página da Web.
-- Faça todas as leituras indicadas.
 
 <div align="left">
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>

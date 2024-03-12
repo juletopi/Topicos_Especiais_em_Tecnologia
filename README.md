@@ -461,6 +461,381 @@ footer {
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
 </div>
 
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=7fbfc9&height=4&section=header&%20render">
+</div>
+
+### 3. Trabalhando com tabelas em HTML
+
+> [!NOTE]\
+> *Retirado da aula de "[CodigoAula03](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/tree/main/CodigoAula03)"* \
+> *Link de todas as aulas em PDF: [Aulas de T.E.T em PDF](https://drive.google.com/drive/folders/1WZKBbU3s5VFLfBFfLC7zqFWzAqR1x9Dy?usp=drive_link)*
+
+<div align="left">
+
+  Nesta aula foram aprendidos:
+  - Diferentes conceitos de criação de tabelas em HTML
+ 
+</div>
+
+#### HTML:
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvendo tabelas em HTML</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/scrollbar.css">
+    <link rel="shortcut icon" href="src/images/tableIcon.ico" type="image/x-icon" />
+</head>
+<body>
+    <header class="header">
+        <img src="src/images/tableImage.png" alt="tableImage-pic">
+    <h2>Tabelas em HTML</h2>
+    <p>Trabalhando com tabelas em HTML.</p>
+    </header>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Primeira tabela -->
+    <section class="table1">
+        <h3>Primeira Tabela | Tabela simples</h3>
+        <table border="1">
+            <tr>
+                <td>Nome</td>
+                <td>Idade</td>
+                <td>Profissão</td>
+            </tr>
+            <tr>
+                <td>Elias</td>
+                <td>22</td>
+                <td>Dev Front-end</td>
+            </tr>
+            <tr>
+                <td>Amanda</td>
+                <td>21</td>
+                <td>Dev Back-end</td>
+            </tr>
+            <tr>
+                <td>Maxwell</td>
+                <td>19</td>
+                <td>Dev Fullsatck</td>
+            </tr>
+        </table>
+        <p><strong>Sobre a tabela:</strong> É uma tabela simples com bordas, mostrando informações de nome, idade e profissão de diferentes pessoas.</p>
+    </section>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Segunda tabela -->
+    <section class="table2">
+        <h3>Segunda Tabela | Célula de título da tabela HTML</h3>
+        <table border="1">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+            <tr>
+                <td>Túlio</td>
+                <td>24</td>
+                <td>Analista</td>
+            </tr>
+            <tr>
+                <td>Marco</td>
+                <td>26</td>
+                <td>Designer</td>
+            </tr>
+        </table>
+        <p><strong>Sobre a tabela:</strong> Similar à primeira, mas usa &lt;th&gt; para os títulos das colunas, o que é semanticamente correto para cabeçalhos de tabela.</p>
+    </section>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Terceira tabela -->
+    <section class="table3">
+        <h3>Terceira Tabela | Tabelas verticais</h3>
+        <table border="1">
+            <tr>
+                <th>Nome:</th>
+                <td>Tobias</td>
+            </tr>
+            <tr>
+                <th>Idade:</th>
+                <td>27</td>
+            </tr>
+         </table>
+        <p><strong>Sobre a tabela:</strong> Demonstra o uso do &lt;th&gt para títulos verticais, ou seja, na primeira coluna.</p>
+    </section>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Quarta tabela -->
+    <section class="table4">
+        <h3>Quarta Tabela | Tags estruturais da tabela</h3>
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Título 1</th>
+                <th>Título 2</th>
+                <th>Título 3</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Body 1 - Linha 1</td>
+                <td>Body 2 - Linha 1</td>
+                <td>Body 3 - Linha 1</td>
+            </tr>
+            <tr>
+                <td>Body 1 - Linha 2</td>
+                <td>Body 2 - Linha 2</td>
+                <td>Body 3 - Linha 2</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <td>Foot 1</td>
+                <td>Foot 2</td>
+                <td>Foot 3</td>
+            </tfoot>
+         </table>
+        <p><strong>Sobre a tabela:</strong> Demonstra o uso correto das tags &lt;thead&gt;, &lt;tbody&gt; e &lt;tfoot&gt; para organizar o conteúdo da tabela em cabeçalho, corpo e rodapé.</p>
+    </section>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Quinta tabela -->
+    <section class="table5">
+        <h3>Quinta Tabela | Criando células vazias</h3>
+        <table border="1">
+            <tr>
+                <th>&nbsp;</th>
+                <th>Valor</th>
+            </tr>
+            <tr>
+                <td>Item 1</td>
+                <td>R$10,00</td>
+            </tr>
+            <tr>
+                <td>Item 2</td>
+                <td>R$20,00</td>
+            </tr>
+        </table>
+        <p><strong>Sobre a tabela:</strong> Mostra como criar células vazias em uma tabela, usando &amp;nbsp; (espaço em branco não quebrável) para representar uma célula sem conteúdo.</p>
+    </section>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Sexta tabela -->
+    <section class="table6">
+        <h3>Sexta Tabela | Células que abrangem mais que uma linha/coluna</h3>
+        <!-- Primeiro, utilizando o colspan: -->
+        <table border="1">
+            <tr>
+                <th>Nome</th>
+                <th colspan="2">Telefones</th>
+            </tr>
+            <tr>
+                <td>Jeferson</td>
+                <td>8888-8888</td>
+                <td>9999-9999</td>
+            </tr>
+            <tr>
+                <td>Junior</td>
+                <td>1111-1111</td>
+                <td>2222-2222</td>
+            </tr>
+        </table>
+        <!-- Depois, utilizando o rowspan: -->
+        <table border="1">
+            <tr>
+              <th>Primeiro Nome:</th>
+              <td>Carlos</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Telefone:</th>
+              <td>8888-8888</td>
+            </tr>
+            <tr>
+              <td>9999-9999</td>
+            </tr>
+        </table>
+        <p><strong>Sobre a tabela:</strong> Introduz o uso de "colspan" e "rowspan" para células que ocupam mais de uma coluna ou linha, respectivamente.</p>
+    </section>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Sétima tabela -->
+    <section class="table7">
+        <h3>Sétima Tabela | Título da tabela</h3>
+        <table border="1">
+            <caption>Exemplo de Título</caption>
+            <tr>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+            </tr>
+            <tr>
+                <td>Irineu</td>
+                <td>Você não sabe nem eu</td>
+            </tr>
+            <tr>
+                <td>Maaarco</td>
+                <td>Pooolo</td>
+            </tr>
+        </table>
+        <p><strong>Sobre a tabela:</strong> Apresenta o uso da tag &lt;caption&gt; para adicionar um título à tabela.</p>
+    </section>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Oitava tabela -->
+    <section class="table8">
+        <h3>Oitava Tabela | Utilizando o colgroup e col</h3>
+        <table border="1">
+            <colgroup>
+              <col span="2" style="background-color:rgb(146, 184, 240)">
+              <col style="background-color:rgb(52, 104, 247)">
+            </colgroup>
+            <tr>
+              <th>Nome</th>
+              <th>Idade</th>
+              <th>Profissão</th>
+            </tr>
+            <tr>
+              <td>Breno</td>
+              <td>17</td>
+              <td>Estudante</td>
+            </tr>
+            <tr>
+              <td>Geisiane</td>
+              <td>15</td>
+              <td>Estudante</td>
+            </tr>
+          </table>
+        <p><strong>Sobre a tabela:</strong> Demonstra como usar &lt;colgroup&gt; e &lt;col&gt; para aplicar estilos em colunas específicas da tabela, separadamente do conteúdo das células.</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2024 Aula 03 de Tópicos Especiais em Tecnologia. Todos os direitos reservados. | Feito com 💙 por <a href="https://www.linkedin.com/in/julio-cezar-pereira-camargo/">Juletopi</a>.</p>
+    </footer>
+</body>
+</html>
+```
+
+#### CSS (style.css):
+```css
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e9edf0;
+}
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    width: 100%;
+    max-width: 200px;
+    margin: 20px 5px;
+}
+
+.header h2 {
+    color: #2773ff;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.0;
+    letter-spacing: -3px;
+    line-height: 0.1
+}
+
+.header p {
+    color: #0e0e0e;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 0.9;
+}
+
+.table1, .table2, .table3, .table4, .table5, .table6, .table7, .table8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+}
+
+.table1, .table2, .table3, .table4, .table5, .table6, .table7, .table8 h3 {
+    color: #0e0e0e;
+    font-size: 20px;
+}
+
+.table1, .table2, .table3, .table4, .table5, .table6, .table7, .table8 p {
+    color: #0e0e0e;
+    font-size: 17px;
+}
+
+.table8 p {
+    padding-bottom: 80px;
+}
+
+.footer {
+    background-color: #0e0e0e;
+    color: #c5c5c5;
+}
+
+.footer p {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer a {
+    color: #2773ff;
+}
+```
+
+#### CSS (scrollbar.css):
+```css
+::-webkit-scrollbar {
+    background-color: #d9dee2;
+    width: 10px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #387eff;
+    border-radius: 8px;
+}
+```
+
+### 🖼️ Imagem da página
+
+> <a href=""><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/1d8a1ea0-cc13-4a24-a902-6d73627b8e38" alt="WebPageView" title="Visualização da Página Inteira" style="width: 50%;"></a>
+
+<div align="left">
+  <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
+</div>
+
 <br>
 
 <!-- AUTHOR -->

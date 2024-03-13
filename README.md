@@ -8,8 +8,6 @@
 🔗 • https://getemoji.com
 -->
 
-## LETRA DA MÚSICA
-
 <div align="left">
   <img src="https://img.shields.io/github/license/juletopi/Topicos_Especiais_em_Tecnologia" alt="Liscence-badge">
 </div>

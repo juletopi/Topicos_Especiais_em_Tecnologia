@@ -742,7 +742,7 @@ footer {
 </html>
 ```
 
-#### CSS (style.css):
+#### CSS:
 ```css
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -812,20 +812,6 @@ body {
 
 .footer a {
     color: #2773ff;
-}
-```
-
-#### CSS (scrollbar.css):
-```css
-::-webkit-scrollbar {
-    background-color: #d9dee2;
-    width: 10px;
-	height: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #387eff;
-    border-radius: 8px;
 }
 ```
 

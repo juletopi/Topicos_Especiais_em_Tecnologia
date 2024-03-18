@@ -814,6 +814,17 @@ body {
 .footer a {
     color: #2773ff;
 }
+
+::-webkit-scrollbar {
+    background-color: #d9dee2;
+    width: 10px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #387eff;
+    border-radius: 8px;
+}
 ```
 
 ### 🖼️ Imagem da página

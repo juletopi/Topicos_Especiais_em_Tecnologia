@@ -470,7 +470,8 @@ footer {
 
 > [!NOTE]\
 > *Retirado da aula de "[CodigoAula03](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/tree/main/CodigoAula03)"* \
-> *Link de todas as aulas em PDF: [Aulas de T.E.T em PDF](https://drive.google.com/drive/folders/1WZKBbU3s5VFLfBFfLC7zqFWzAqR1x9Dy?usp=drive_link)*
+> *Link de todas as aulas em PDF: [Aulas de T.E.T em PDF](https://drive.google.com/drive/folders/1WZKBbU3s5VFLfBFfLC7zqFWzAqR1x9Dy?usp=drive_link)* \
+> *Link do repositório do desafio do dia 04/03: [Desafio_Pagina_Musical](https://github.com/juletopi/Desafio_Pagina_Musical)*
 
 <div align="left">
 

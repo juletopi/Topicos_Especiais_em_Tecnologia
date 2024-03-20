@@ -1023,19 +1023,19 @@ body {
 
 /* Reset básico para todos os elementos */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    in: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Remove os estilos padrão das listas não ordenadas */
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 /* Remove a decoração padrão dos links */
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 /* CSS (font.css) */

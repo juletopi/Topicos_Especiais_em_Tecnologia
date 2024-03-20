@@ -278,7 +278,7 @@ Abordagem dos princípios e técnicas para garantir a segurança de aplicações
 ```
 ### 🖼️ Imagem da página
 
-> <a href="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/Assets/Pagina_HTML_Aula01-pic.png"><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/6f5014d6-5e90-4972-a702-83449b7b6fdc" alt="WebPageView" title="Visualização da Página Inteira" style="width: 50%;"></a>
+> <a href="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/Assets/Pagina_HTML_Aula01-pic.png"><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/6f5014d6-5e90-4972-a702-83449b7b6fdc" alt="WebPageView" title="Visualização da Página Inteira" style="width: 60%;"></a>
 
 <div align="left">
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
@@ -457,7 +457,7 @@ footer {
 
 ### 🖼️ Imagem da página
 
-> <a href="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/Assets/Pagina_HTMLeCSS_Aula02-pic.png"><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/9c767011-e8d4-4b53-849a-456fd982c2c4" alt="WebPageView" title="Visualização da Página Inteira" style="width: 50%;"></a>
+> <a href="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/Assets/Pagina_HTMLeCSS_Aula02-pic.png"><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/9c767011-e8d4-4b53-849a-456fd982c2c4" alt="WebPageView" title="Visualização da Página Inteira" style="width: 60%;"></a>
 
 <div align="left">
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
@@ -830,7 +830,7 @@ body {
 
 ### 🖼️ Imagem da página
 
-> <a href=""><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/1d8a1ea0-cc13-4a24-a902-6d73627b8e38" alt="WebPageView" title="Visualização da Página Inteira" style="width: 50%;"></a>
+> <a href=""><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/1d8a1ea0-cc13-4a24-a902-6d73627b8e38" alt="WebPageView" title="Visualização da Página Inteira" style="width: 60%;"></a>
 
 <div align="left">
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>

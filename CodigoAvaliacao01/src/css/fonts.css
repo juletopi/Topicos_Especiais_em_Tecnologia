@@ -1,0 +1,6 @@
+/* Definição da fonte FFFForward */
+@font-face {
+    font-family: "FFFFoward";
+    src: url("../fonts/FFFFORWARD.ttf") format("woff2"),
+         url("../fonts/FFFFORWARD.ttf") format("woff");
+}

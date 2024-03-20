@@ -1,0 +1,275 @@
+/* Estilização básica do corpo do documento */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background-color: #3e375f;
+    background-image: url('../images/mainBackgroundImage.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Estilização da sobreposição para efeitos visuais desejados na imagem de fundo */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Estilização do título da página */
+.title h1 {
+    font-family: FFFFoward;
+    font-size: 50px;
+    padding-top: 100px;
+    text-align: center;
+    line-height: 1.0;
+    letter-spacing: -2px;
+    opacity: 0;
+    animation: fadeInDown 2.0s forwards;
+}
+
+/* Estilização da linha abaixo do título */
+.title hr {
+    border: none;
+    border: 2px solid #dacf3f;
+    width: 30%;
+    margin: 50px auto;
+    margin-top: 50px;
+    margin-bottom: -5px;
+}
+
+/* Estilização do subtítulo abaixo do título */
+.title h2 {
+    font-size: 21px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+    padding-top: 35px;
+    text-align: center;
+    line-height: 1.0;
+    line-height: 1.3,5;
+    opacity: 0;
+    animation: fadeInUp 2.5s forwards;
+}
+
+/* Estilização do a seção informativa abaixo do título */
+.more-info {
+    font-size: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Estilização a seta animada abaixo da seção informativa */
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #fff;
+    position: relative;
+    margin: 10px auto;
+    padding-bottom: 15px;
+    animation: arrowAnimation 1s infinite alternate;
+}
+
+/* Estilização das duas seções sobre as músicas */
+.music1, .music2 {
+    display: flex;
+    align-items: flex-start;
+    background-color: #191625dc;
+    color: #fff;
+    padding: 50px 0px;
+    margin-top: 20px;
+    opacity: 0;
+    animation: fadeInDown 1.5s forwards;
+}
+
+/* Estilização dos títulos das seções sobre as músicas */
+.music1 h2, .music2 h2 {
+    font-size: 30px;
+}
+
+/* Estilização das imagens das seções sobre as músicas */
+.music1 img, .music2 img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin-left: 20px;
+}
+
+/* Estilização do preenchimento do ícone do artista ao passar o mouse */
+.music1 a:hover svg path, .music2 a:hover svg path {
+    fill: #dacf3f;
+    transition: fill 0.2s ease;
+}
+
+/* Estilização dos ícones sociais dos artistas*/
+.social-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+/* Estilização dos links sociais dos artistas*/
+.social-icons a {
+    margin-right: 10px;
+}
+
+/* Estilização do container do botão */
+.button-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+/* Estilização dos botões transparentes e brancos */
+.transparent-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #dacf3f;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Estilização do contêiner do texto */
+.music1 .text-container, .music2 .text-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 20px;
+}
+
+/* Estilização do título das seções sobre as músicas */
+.music1 h2, .music2 h2 {
+    margin: 0;
+    color: #dacf3f;
+}
+
+/* Estilização do subtítulo das seções sobre as músicas */
+.music1 sub, .music2 sub {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #dacf3f;
+}
+
+/* Estilização do texto das seções sobre as músicas */
+.music1 p, .music2 p {
+    margin: 10px 0;
+    padding-right: 20px;
+}
+
+/* Estilização da citação das seções sobre as músicas */
+.music1 cite, .music2 cite {
+    margin-top: 10px;
+}
+
+/* Estilização dos links de citação das seções sobre as músicas */
+.music1 a, .music2 a {
+    color: #dacf3f;
+    margin-top: 10px;
+}
+
+/* Estilização dos links dos links de citação ao passar o mouse */
+.music1 a:hover, .music2 a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização da tabela e do título */
+.table-wrapper {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeInDown 1.5s forwards;
+}
+
+/* Estilização do título da tabela */
+.table-wrapper h1 {
+    font-family: FFFFoward;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    letter-spacing: -1px;
+    opacity: 0;
+    animation: fadeInDown 2.0s forwards;
+}
+
+/* Estilização da linha horizontal abaixo do título da tabela */
+.table-wrapper hr {
+    border: none;
+    border: 2px solid #dacf3f;
+    width: 40%;
+    margin: 50px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilização dos títulos das colunas */
+table th {
+    background-color: #191625dc;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 4px solid #dacf3f;
+}
+
+/* Estilização das células da tabela */
+table td {
+    background-color: #19162563;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilização dos links nas células da tabela */
+table td a {
+    color: #fff;
+}
+
+table td:hover {
+    background-color: #191625dc;
+}
+
+/* Estilização dos links nas células da tabela ao passar o mouse */
+table td a:hover {
+    background-color: #191625dc;
+    text-decoration: underline;
+    color: #dacf3f;
+}
+
+/* Estilização do rodapé */
+.footer {
+    background-color: #191625;
+    color: #c5c5c5;
+    margin-top: 30px;
+}
+
+/* Estilização do texto do rodapé */
+.footer p {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Estilização do link no rodapé */
+.footer a {
+    color: #9b9323;
+}

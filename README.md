@@ -830,7 +830,7 @@ body {
 
 ### 🖼️ Imagem da página
 
-> <a href=""><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/1d8a1ea0-cc13-4a24-a902-6d73627b8e38" alt="WebPageView" title="Visualização da Página Inteira" style="width: 60%;"></a>
+> <a href="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/Assets/Pagina_HTMLeCSS_Aula03-pic.png"><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/1d8a1ea0-cc13-4a24-a902-6d73627b8e38" alt="WebPageView" title="Visualização da Página Inteira" style="width: 60%;"></a>
 
 <div align="left">
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
@@ -1400,7 +1400,7 @@ table td a:hover {
 
 ### 🖼️ Imagem da página
 
-> <a href=""><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/10e01b8e-2753-47ce-a91d-795351ea0927" alt="WebPageView" title="Visualização da Página Inteira" style="width: 60%;"></a>
+> <a href="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/Assets/Pagina_HTMLeCSS_Avaliacao1-pic.png"><img src="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/assets/76459155/10e01b8e-2753-47ce-a91d-795351ea0927" alt="WebPageView" title="Visualização da Página Inteira" style="width: 60%;"></a>
 
 <div align="left">
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>

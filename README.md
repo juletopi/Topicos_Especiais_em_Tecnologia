@@ -1017,10 +1017,8 @@ body {
 </html>
 ```
 
-#### CSS:
+#### CSS (reset.css):
 ```css
-/* CSS (reset.css) */
-
 /* Reset básico para todos os elementos */
 * {
     in: 0;
@@ -1037,18 +1035,20 @@ ul {
 a {
     text-decoration: none;
 }
+```
 
-/* CSS (font.css) */
-
+#### CSS (font.css):
+```css
 /* Definição da fonte FFFForward */
 @font-face {
     font-family: "FFFFoward";
     src: url("../fonts/FFFFORWARD.ttf") format("woff2"),
          url("../fonts/FFFFORWARD.ttf") format("woff");
 }
+```
 
-/* CSS (style.css) */
-
+#### CSS (style.css):
+```css
 /* Estilização básica do corpo do documento */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1324,9 +1324,10 @@ table td a:hover {
 .footer a {
     color: #9b9323;
 }
+```
 
-/* CSS (animation.css) */
-
+#### CSS (animation.css):
+```css
 /* Animação da seta */
 @keyframes arrowAnimation {
     from {
@@ -1360,9 +1361,10 @@ table td a:hover {
         transform: translateY(0);
     }
 }
+```
 
-/* CSS (pseudoElementStyles.css) */
-
+#### CSS (pseudoElementStyles.css):
+```css
 /* Estilos da barra de rolagem */
 ::-webkit-scrollbar {
     background-color: #191625;

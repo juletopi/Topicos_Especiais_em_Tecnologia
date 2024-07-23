@@ -1406,6 +1406,279 @@ table td a:hover {
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
 </div>
 
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=7fbfc9&height=4&section=header&%20render">
+</div>
+
+### 4. Operadores e Tabelas em JavaScript
+
+> [!NOTE]\
+> *Retirado da aula de "[CodigoAula04](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/tree/main/CodigoAula04)"* \
+> *Link de todas as aulas em PDF: [Aulas de T.E.T em PDF](https://drive.google.com/drive/folders/1WZKBbU3s5VFLfBFfLC7zqFWzAqR1x9Dy?usp=drive_link)*
+
+<div align="left">
+
+  Nesta aula foram aprendidos:
+  - Significados de operadores de JavaScript
+  - Criação de uma tabela gerado por JavaScript
+ 
+</div>
+
+#### HTML:
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas sobre JavaScript</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/scrollbar.css">
+    <link rel="shortcut icon" href="src/images/javascriptIcon.ico" type="image/x-icon" />
+</head>
+<body>
+    <header class="header">
+        <img src="src/images/javascriptImage.png" alt="tableImage-pic">
+    <h2>Tabelas sobre JavaScript</h2>
+    <p>Entendendo sobre operadores lógicos e lógica de verdadeiro/falso.</p>
+    </header>
+
+    <br>
+    <hr>
+    <br>
+
+    <section class="operadores-logicos">
+        <h3>Operadores Lógicos</h3>
+        <table class="tabela-operadores" border="1">
+            <tr>
+                <th>Operador</th>
+                <th>Nome</th>
+                <th>Exemplo</th>
+                <th>Resultado</th>
+            </tr>
+            <tr>
+                <td>==</td>
+                <td>Igual</td>
+                <td>a == b</td>
+                <td>Verdadeiro se a for igual a b</td>
+            </tr>
+            <tr>
+                <td>!=</td>
+                <td>Diferente</td>
+                <td>a != b</td>
+                <td>Verdadeiro se a não for igual a b</td>
+            </tr>
+            <tr>
+                <td><></td>
+                <td>Diferente</td>
+                <td>a <> b</td>
+                <td>Verdadeiro se a não for igual a b</td>
+            </tr>
+            <tr>
+                <td>===</td>
+                <td>Idêntico</td>
+                <td>a === b</td>
+                <td>Verdadeiro se a for igual a b e for do mesmo tipo</td>
+            </tr>
+            <tr>
+                <td>!==</td>
+                <td>Não idêntico</td>
+                <td>a !== b</td>
+                <td>Verdadeiro se a não for igual a b, ou eles não forem do mesmo tipo</td>
+            </tr>
+            <tr>
+                <td><</td>
+                <td>Menor que</td>
+                <td>a < b</td>
+                <td>Verdadeiro se a for menor que b</td>
+            </tr>
+            <tr>
+                <td>></td>
+                <td>Maior que</td>
+                <td>a > b</td>
+                <td>Verdadeiro se a for maior que b</td>
+            </tr>
+            <tr>
+                <td><=</td>
+                <td>Menor ou igual</td>
+                <td>a <= b</td>
+                <td>Verdadeiro se a for menor ou igual a b</td>
+            </tr>
+            <tr>
+                <td>>=</td>
+                <td>Maior ou igual</td>
+                <td>a >= b</td>
+                <td>Verdadeiro se a for maior ou igual a b</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="operadores-logicos">
+        <h3>Operadores Lógicos (Gerado com JavaScript)</h3>
+        <table class="tabela-operadores" id="tabela-operadores" border="1">
+            <!-- CONTEÚDO GERADO POR JAVASCRIPT AQUI -->
+        </table>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Aula 04 de Tópicos Especiais em Tecnologia. Todos os direitos reservados. | Feito com 💛 por <a href="https://www.linkedin.com/in/julio-cezar-pereira-camargo/">Juletopi</a>.</p>
+    </footer>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
+```
+
+#### CSS (reset.css):
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+```
+
+#### CSS (style.css):
+```css
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fffcd0;
+}
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    width: 100%;
+    max-width: 150px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.header h2 {
+    color: #e6da3a;
+    text-align: center;
+    font-size: 35px;
+    line-height: 1.0;
+    letter-spacing: -3px;
+    line-height: 0.1
+}
+
+.header p {
+    color: #0e0e0e;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 0.9;
+}
+
+.operadores-logicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 40px;
+}
+
+.operadores-logicos h3 {
+    color: #0e0e0e;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.operadores-logicos p {
+    color: #0e0e0e;
+    font-size: 17px;
+}
+
+.tabela-operadores {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.tabela-operadores th,
+.tabela-operadores td {
+    padding: 8px;
+    border: 1px solid #a5a5a5;
+}
+
+.tabela-operadores td:nth-child(1),
+.tabela-operadores td:nth-child(3) {
+    text-align: center;
+    color: #e62a91;
+}
+
+.tabela-operadores td:nth-child(2),
+.tabela-operadores td:nth-child(4) {
+    text-align: left;
+}
+
+.tabela-operadores th {
+    text-align: center;
+    background-color: #f8f18c;
+}
+
+.tabela-operadores td {
+    background-color: #fcfbf5;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: #0e0e0e;
+    color: #c5c5c5;
+}
+
+.footer p {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer a {
+    color: #e6da3a;
+}
+```
+
+#### CSS (scrollbar.css):
+```css
+::-webkit-scrollbar {
+    background-color: #eeebc4;
+    width: 10px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e6da3a;
+    border-radius: 8px;
+}
+```
+
+### 🖼️ Imagem da página
+
+> <a href="https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/blob/main/Assets/Pagina_HTML-CSS-JAVASCRIPT_Aula04-pic.png"><img src="https://github.com/user-attachments/assets/694816e0-62cd-41dc-9b15-a646dfe44e7b" alt="WebPageView" title="Visualização da Página Inteira" style="width: 60%;"></a>
+
+<div align="left">
+  <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
+</div>
+
 <br>
 
 <!-- AUTHOR -->

@@ -62,6 +62,7 @@
     <a href="#avaliação-01---html-e-css">Avaliação 1</a>
    </p>
     <a href="#4-operadores-e-tabelas-em-javascript">Conceitos Aprendidos 4</a> &#xa0; | &#xa0;
+    <a href="#avaliação-02---html-css-e-javascript">Avaliação 2</a> &#xa0; | &#xa0;
     <a href="#-autor">Autor</a>
   </p>
 </div>

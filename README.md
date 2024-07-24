@@ -1690,7 +1690,8 @@ body {
 
 > [!NOTE]\
 > *Retirado da aula de "[CodigoAvaliacao02](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia/tree/main/CodigoAvaliacao02)"* \
-> *Link de todas as aulas em PDF: [Aulas de T.E.T em PDF](https://drive.google.com/drive/folders/1WZKBbU3s5VFLfBFfLC7zqFWzAqR1x9Dy?usp=drive_link)*
+> *Link de todas as aulas em PDF: [Aulas de T.E.T em PDF](https://drive.google.com/drive/folders/1WZKBbU3s5VFLfBFfLC7zqFWzAqR1x9Dy?usp=drive_link)* \
+> *Link do repositório do projeto: [Página Cyberpunk Edgerunners](https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners)*
 
 <div align="left">
 

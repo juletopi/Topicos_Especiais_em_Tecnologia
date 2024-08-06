@@ -54,7 +54,7 @@
 <div align="center">
   <p align="center">
     <a href="#-professor">Professor</a> &#xa0; | &#xa0;
-    <a href="#tópicos-especiais-em-tecnologia"> Sobre o tópico</a> &#xa0; | &#xa0;
+    <a href="#-tópicos-especiais-em-tecnologia"> Sobre o tópico</a> &#xa0; | &#xa0;
     <a href="#1-vscode-html-e-web-páginas">Conceitos Aprendidos 1</a>
    </p>
     <a href="#2-css-e-estilização-de-página">Conceitos Aprendidos 2</a> &#xa0; | &#xa0;
@@ -101,47 +101,47 @@
 
 <!-- ABOUT TOPIC -->
 
-## Tópicos Especiais em Tecnologia
+## 🌟 Tópicos Especiais em Tecnologia
 
-### Ementa:
+### 📋 Ementa:
 
-1. **Fundamentos de sistemas web:** \
-Introdução aos princípios básicos que regem o funcionamento de sistemas web, incluindo arquitetura cliente-servidor, protocolos de comunicação como HTTP e HTTPS, e conceitos como URL e cookies.
+1. **🌐 Fundamentos de Sistemas Web:** \
+   Introdução aos princípios básicos que regem o funcionamento de sistemas web, incluindo arquitetura cliente-servidor, protocolos de comunicação como HTTP e HTTPS, e conceitos como URL e cookies.
 
-3. **Linguagem de Marcação:** \
-Estudo das linguagens utilizadas para estruturar e formatar conteúdo na web, como HTML (Hypertext Markup Language) e XML (Extensible Markup Language), que são essenciais para criar páginas web.
+2. **📝 Linguagem de Marcação:** \
+   Estudo das linguagens utilizadas para estruturar e formatar conteúdo na web, como HTML (Hypertext Markup Language) e XML (Extensible Markup Language), que são essenciais para criar páginas web.
 
-5. **Folhas de estilos em cascata:** \
-Abordagem de como o CSS (Cascading Style Sheets) é usado para estilizar o conteúdo HTML, controlando sua apresentação visual, como layout, cores, fontes e espaçamento.
+3. **🎨 Folhas de Estilos em Cascata (CSS):** \
+   Abordagem de como o CSS (Cascading Style Sheets) é usado para estilizar o conteúdo HTML, controlando sua apresentação visual, como layout, cores, fontes e espaçamento.
 
-7. **Conceito de Linguagem de Programação Web Front-end e Back-end:** \
-Explicação sobre as diferenças entre as linguagens de programação utilizadas no desenvolvimento front-end (parte da aplicação web que interage diretamente com o usuário) e back-end (parte que lida com a lógica e o armazenamento de dados).
+4. **🖥️ Conceito de Linguagem de Programação Web Front-end e Back-end:** \
+   Explicação sobre as diferenças entre as linguagens de programação utilizadas no desenvolvimento front-end (parte da aplicação web que interage diretamente com o usuário) e back-end (parte que lida com a lógica e o armazenamento de dados).
 
-9. **Acesso e interação de página web com banco de dados:** \
-Introdução aos conceitos de como páginas web interagem com bancos de dados para armazenar e recuperar informações, utilizando tecnologias como SQL e APIs.
+5. **💾 Acesso e Interação de Página Web com Banco de Dados:** \
+   Introdução aos conceitos de como páginas web interagem com bancos de dados para armazenar e recuperar informações, utilizando tecnologias como SQL e APIs.
 
-11. **Conceito de Design Patterns na programação web:** \
-Apresentação dos padrões de design comumente utilizados no desenvolvimento web para resolver problemas recorrentes, como MVC (Model-View-Controller) e REST (Representational State Transfer).
+6. **🔧 Conceito de Design Patterns na Programação Web:** \
+   Apresentação dos padrões de design comumente utilizados no desenvolvimento web para resolver problemas recorrentes, como MVC (Model-View-Controller) e REST (Representational State Transfer).
 
-13. **Desenvolvimento de aplicações com Frameworks front-end e back-end:** \
-Exploração de frameworks populares utilizados no desenvolvimento web, como Angular, React e Vue.js para front-end, e Node.js, Django e Flask para back-end, que facilitam o desenvolvimento de aplicações web.
+7. **🚀 Desenvolvimento de Aplicações com Frameworks Front-end e Back-end:** \
+   Exploração de frameworks populares utilizados no desenvolvimento web, como Angular, React e Vue.js para front-end, e Node.js, Django e Flask para back-end, que facilitam o desenvolvimento de aplicações web.
 
-15. **Versionamento no desenvolvimento web:** \
-Explicação sobre o uso de sistemas de controle de versão, como Git, para gerenciar e controlar as mudanças no código fonte de um projeto web, permitindo colaboração entre desenvolvedores e controle de versões do código.
+8. **🛠️ Versionamento no Desenvolvimento Web:** \
+   Explicação sobre o uso de sistemas de controle de versão, como Git, para gerenciar e controlar as mudanças no código fonte de um projeto web, permitindo colaboração entre desenvolvedores e controle de versões do código.
 
-17. **Princípios de segurança de sistemas web:** \
-Abordagem dos princípios e técnicas para garantir a segurança de aplicações web, incluindo criptografia, autenticação de usuários, controle de acesso e prevenção de ataques comuns, como XSS (Cross-Site Scripting) e SQL injection.
+9. **🔒 Princípios de Segurança de Sistemas Web:** \
+   Abordagem dos princípios e técnicas para garantir a segurança de aplicações web, incluindo criptografia, autenticação de usuários, controle de acesso e prevenção de ataques comuns, como XSS (Cross-Site Scripting) e SQL Injection.
 
-### Objetivo geral:
+### 🎯 Objetivo Geral:
 
 - Projetar e desenvolver páginas Web.
 
-### Objetivos específicos:
+### 🎯 Objetivos Específicos:
 
 - Desenvolver algoritmos voltados para Web;
-- Desenvolver a capacidade de localizar e avaliar tecnologias atuais e emergentes para o desenvolvimento de aplicações para a Web.
-- Entender o funcionamento de servidores Web e como páginas e aplicações para a Web são servidas.
-- Entender a organização e como se interligam elementos que compõem uma página da Web.
+- Desenvolver a capacidade de localizar e avaliar tecnologias atuais e emergentes para o desenvolvimento de aplicações para a Web;
+- Entender o funcionamento de servidores Web e como páginas e aplicações para a Web são servidas;
+- Compreender a organização e a interligação dos elementos que compõem uma página da Web.
 
 <div align="left">
   <h6><a href="#tópicos-especiais-em-tecnologia-"> Voltar para o início ↺</a></h6>
